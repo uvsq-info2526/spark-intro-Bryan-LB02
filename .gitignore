@@ -3,16 +3,18 @@ html/
 # vim swap files
 *.swp
 # datasets
-notebooks/dpts.txt
-notebooks/prenoms.txt
-notebooks/prenoms_sample.txt/
-notebooks/depts.parquet/
-notebooks/prenomsParDeptsEtAnnees.gzip.parquet/
-notebooks/prenomsParDeptsEtAnnees.parquet/
-notebooks/prenoms/
+data/dpts.txt
+data/prenoms.txt
+data/prenoms_sample.txt/
+data/depts.parquet/
+data/prenomsParDeptsEtAnnees.gzip.parquet/
+data/prenomsParDeptsEtAnnees.parquet/
+data/prenoms/
 # jupyter temporary files
 .local
-notebooks/.ipynb_checkpoints/
+notebook/.ipynb_checkpoints/
 # Python venv
 /sparkenv/
 /PROD/
+# macOS system files
+.DS_Store
